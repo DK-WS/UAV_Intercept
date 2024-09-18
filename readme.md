@@ -1,9 +1,13 @@
 本项目是基于python的无人机仿真实验，主要包含无人机运动学，动力学和控制分配模型，无人机3D飞行可视化等基础无人机仿真功能。利用针孔相机模型设计了虚拟相机，结合视觉伺服控制无人机对空中的移动目标实现追踪于反制。
 
 1,无人机数学模型参考文件：/model/quadrotors_model.py
+
 2,针孔相机模型参考文件：/model/image.py
+
 3,控制器设计参考文件：/controllers/intercept.py
+
 4,程序运行：main.py
+
 5,无人机飞行可视化：/draw/draw3d.py/(update_plot)
 
 视觉部分：
