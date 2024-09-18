@@ -10,9 +10,9 @@ import time
 import matplotlib.pyplot as plt
 
 def main():
-    euler_ctrl_para = euler_controller.ControllerParameters()  # 创建Euler控制器参数对象
-    euler_ctrl =euler_controller.EulerController()  # 创建Euler控制器对象
-    quadrotors_model = QModel.QuadrotorsModel()  # 创建四旋翼模型对象
+    # euler_ctrl_para = euler_controller.ControllerParameters()  # 创建Euler控制器参数对象
+    # euler_ctrl =euler_controller.EulerController()  # 创建Euler控制器对象
+    # quadrotors_model = QModel.QuadrotorsModel()  # 创建四旋翼模型对象
 
     intercept_ctrl_para = intercept.Intercept_ControllerParameters()  # 创建Euler控制器参数对象
     intercept_ctrl =intercept.Intercept_Controller()  # 创建Euler控制器对象
